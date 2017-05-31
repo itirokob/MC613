@@ -1,0 +1,20 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY logicaDeControle IS
+	PORT(	switches: IN STD_LOGIC_VECTOR(9 DOWNTO 0),
+			scoreJ0, scoreJ1, scoreJ2, scoreJ3, scoreJ4, scoreJ5: OUT STD_LOGIC_VECTOR(8 DOWNTO 0));
+END ENTITY;
+
+ARCHITECTURE Behavior OF logicaDeControle IS
+
+COMPONENT input IS
+	PORT(	switches: IN STD_LOGIC_VECTOR(9 DOWNTO 0);
+			saidaJogada: BUFFER STD_LOGIC_VECTOR(3 DOWNTO 0);
+			isStrike: OUT STD_LOGIC);
+END COMPONENT;
+
+BEGIN
+	
+	
+END Behavior;

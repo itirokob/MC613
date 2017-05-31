@@ -1,0 +1,7 @@
+--Entrada: 10 STD_LOGIC (cada um será um dip switch)
+--Saída
+--Vetor de pinos derrubados para a primeira jogada
+--Vetor de pinos derrubados para a segunda jogada
+--Vetor de strike ou spare da primeira jogada
+--Vetor de strike ou spare da segunda jogada
+
